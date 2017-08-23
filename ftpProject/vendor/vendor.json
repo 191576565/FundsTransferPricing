@@ -1,0 +1,85 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "SkoyrWJR3OI+AZ80xbndVye1Gzc=",
+			"path": "github.com/astaxie/beego",
+			"revision": "cab8458c1c4a5a3b4bf5192922be620e6dede15b",
+			"revisionTime": "2017-05-19T13:19:18Z"
+		},
+		{
+			"checksumSHA1": "BEaZg+LpY3ZXs6qy0UiSadvbHaY=",
+			"path": "github.com/astaxie/beego/cache",
+			"revision": "cab8458c1c4a5a3b4bf5192922be620e6dede15b",
+			"revisionTime": "2017-05-19T13:19:18Z"
+		},
+		{
+			"checksumSHA1": "DPEoKPetckr8n6lCykMu3Po3PAs=",
+			"path": "github.com/astaxie/beego/config",
+			"revision": "cab8458c1c4a5a3b4bf5192922be620e6dede15b",
+			"revisionTime": "2017-05-19T13:19:18Z"
+		},
+		{
+			"checksumSHA1": "iZ7Nlj++9sGGrw8mmYpA9Sm2SbI=",
+			"path": "github.com/astaxie/beego/context",
+			"revision": "cab8458c1c4a5a3b4bf5192922be620e6dede15b",
+			"revisionTime": "2017-05-19T13:19:18Z"
+		},
+		{
+			"checksumSHA1": "+5TpkCiIAd6g6ecRkPbGS/Ivbl8=",
+			"path": "github.com/astaxie/beego/context/param",
+			"revision": "cab8458c1c4a5a3b4bf5192922be620e6dede15b",
+			"revisionTime": "2017-05-19T13:19:18Z"
+		},
+		{
+			"checksumSHA1": "2Zx/H7cxwDneCICsKGGwMH1xnpE=",
+			"path": "github.com/astaxie/beego/grace",
+			"revision": "cab8458c1c4a5a3b4bf5192922be620e6dede15b",
+			"revisionTime": "2017-05-19T13:19:18Z"
+		},
+		{
+			"checksumSHA1": "344q9RmrnioQ8oSNrxuBA1/Rpp0=",
+			"path": "github.com/astaxie/beego/logs",
+			"revision": "cab8458c1c4a5a3b4bf5192922be620e6dede15b",
+			"revisionTime": "2017-05-19T13:19:18Z"
+		},
+		{
+			"checksumSHA1": "15x127ZmP6XZ0+VYpqpyAb2MjUg=",
+			"path": "github.com/astaxie/beego/session",
+			"revision": "cab8458c1c4a5a3b4bf5192922be620e6dede15b",
+			"revisionTime": "2017-05-19T13:19:18Z"
+		},
+		{
+			"checksumSHA1": "B6+D5EMUhOmo6I5wIVoTwNfcsV8=",
+			"path": "github.com/astaxie/beego/toolbox",
+			"revision": "cab8458c1c4a5a3b4bf5192922be620e6dede15b",
+			"revisionTime": "2017-05-19T13:19:18Z"
+		},
+		{
+			"checksumSHA1": "wyz5HgdoDurteHhp63m+CwKx7zg=",
+			"path": "github.com/astaxie/beego/utils",
+			"revision": "cab8458c1c4a5a3b4bf5192922be620e6dede15b",
+			"revisionTime": "2017-05-19T13:19:18Z"
+		},
+		{
+			"checksumSHA1": "8j2ZdN5Agavupy1mTxH24r9YcXc=",
+			"path": "github.com/go-sql-driver/mysql",
+			"revision": "527bcd55aab2e53314f1a150922560174b493034",
+			"revisionTime": "2015-09-08T12:46:01Z"
+		},
+		{
+			"checksumSHA1": "HQ/0S5jxBDhjCzD5eQ8UDN4Zgco=",
+			"path": "github.com/mattn/go-oci8",
+			"revision": "5e46694007e7f07045681911ef71634dd5bee8a9",
+			"revisionTime": "2015-11-05T00:21:39Z"
+		},
+		{
+			"checksumSHA1": "oQpLAx0t7juZCN5R89t7Jij07OI=",
+			"path": "github.com/tealeg/xlsx",
+			"revision": "887b805086ab2016cdcdbb7a3cab8c0b867e5a64",
+			"revisionTime": "2016-09-13T09:58:47Z"
+		}
+	],
+	"rootPath": "ftpProject"
+}
