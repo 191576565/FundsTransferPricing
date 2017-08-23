@@ -1,0 +1,317 @@
+html,a{
+	color:#000;
+	font-size:100%;
+	background:#FFF;
+	word-break: break-all;
+	word-wrap:break-word;
+}
+body{width:100%;
+	overflow-y:hidden
+}
+div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+	margin:0;
+	padding:0;
+}
+ul {list-style:none;}
+
+/*tr th {*/
+	/*text-align:center;*/
+	/*font-size:11px !important;*/
+	/*min-width:36px !important;*/
+	/*white-space:nowrap;*/
+	/*font-family:"Courier New", Courier, monospace;*/
+	/*vertical-align: middle !important;*/
+	/*margin:0px !important;*/
+/*}*/
+
+/*tr td{*/
+	/*text-align:center;*/
+	/*min-width:36px !important;*/
+	/*white-space:nowrap;*/
+	/*font-size:12px !important;*/
+	/*font-family:"Courier New", Courier, monospace;*/
+	/*vertical-align: middle !important;*/
+	/*padding-top: 3px !important;*/
+	/*padding-bottom: 3px !important;*/
+	/*margin:0px !important;*/
+/*}*/
+
+
+.btn-query{
+	background-image:url(/static/img/btn-query.png);
+	width:46px;
+}
+
+.contentRight{
+	text-align:right;
+	height:30px;
+	line-height:30px;
+	padding-right:5px;
+	font-weight:bold;
+}
+.contentLeft{
+	text-align:left;
+	padding-left:5px;
+}
+.contentCenter{
+	text-align:center;
+	font-weight:bold;
+}
+
+/*
+*主要用户按钮
+*/
+.subbtn{
+	border-style:none;
+	font-weight:bold; 
+	border-radius:6px;
+	font-size:12px;
+	height:30px; 
+	line-height:30px; 
+	background-color: transparent;
+	padding:0px 6px;
+	margin:0px;
+}
+
+/*
+* 主要用户弹出窗口的头部
+*/
+.boxbar{
+	padding:0px;
+	margin:0px;
+	height:30px; 
+	line-height:30px; 
+	background-color:#53A9FF;
+}
+
+.boxbar>.mastips{
+	white-space:nowrap;
+	overflow:hidden;
+	word-break:keep-all;
+	text-overflow:ellipsis;
+	color:#FFF;
+	font-weight:bold;
+}
+.boxbar>.masCloseTips{
+	margin:0px;
+	padding:0px;
+	height:30px;
+	line-height:30px;
+	text-align:right;
+	padding-right:8px;
+	float:right;
+	width:30px;
+}
+.boxbar>.masCloseTips>span{
+	margin:0px;
+	padding:0px;
+	cursor:pointer;
+	height:30px;
+	line-height:30px;
+}
+
+.inputPage{border-style:none; font-weight:bold; border-radius:3px;font-size:12px;height:23px;line-height:23px; width:45px; margin-top:3px; text-align:center;}
+.multcheckbox{ cursor:pointer; padding-top:8px;}
+.multcheckbox li { height:30px; line-height:30px; font-size:14px; margin-top:6px;} 
+.multcheckbox li input{ height:14px; line-height:14px; margin-right:6px;}
+.multcheckbox li span{ height:14px; line-height:14px; margin-right:6px;} 
+
+
+
+.ibox{ 
+    height:26px; 
+	line-height:26px;
+	border-radius:5px;
+	width:120px;
+	float:left;
+	padding:0px 5px !important;
+	margin: 0px 5px !important;
+}
+.ibox-m{
+    height:26px; 
+	line-height:26px;
+	border-radius:5px;
+	width:180px;
+	float:left;
+	padding:0px 5px !important;
+	margin: 0px 5px !important;
+}
+
+.ibox-md {
+    height:26px; 
+	line-height:26px;
+	border-radius:5px;
+	width:230px;
+	float:left;
+	padding:0px 5px !important;
+	margin: 0px 5px !important;
+}
+
+.ibox-label{
+	height:26px;
+	line-height:26px;
+	font-size:11px;
+	float:left;
+	margin-left:20px;
+}
+
+#mas-search-box{
+	background-color:#F2F9FF;
+	height:60px;
+	line-height:60px;
+	min-width:1366px;
+	padding:0px;
+	margin:0px;
+}
+#mas-search-box>form>div{
+	height:60px;
+	line-height: 60px;
+	float: left;
+}
+
+#mas-search-box>form>div>label{
+	height:60px;
+	line-height: 60px;
+}
+
+#mas-search-box>form>div>input{
+	top:17px;
+	position: relative;
+}
+
+#mas-search-box>form>div>select{
+	top:17px;
+	position: relative;
+}
+
+#mas-query-content{
+	padding:0px;
+	overflow:auto;
+}
+
+.mas-query-content-no-margin{
+	padding:0px;
+}
+
+#mas-business-rules-info{
+	padding-left:30px;
+}
+
+
+.mas-alert-footer{
+	height:30px;
+	line-height:30px;
+}
+
+.mas-td-line{
+	width: 2px;
+	cursor: w-resize;
+	padding:0px;
+	margin-left: -5px;
+	z-index:888;
+	height: 20px;
+	float: left;
+}
+
+.mas-rule-list{
+	height: 30px;
+	line-height: 30px;
+	font-size:9px;
+	color:#333;
+	padding-left:10px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.mas-rule-list-query{
+	height: 30px;
+	line-height: 30px;
+	font-size:8px;
+	color:#333;
+	width:230px;
+}
+.mas-rule-list-query>span{
+	background-color:transparent;
+	height:30px;
+	line-height:30px;
+	border:none;
+	position:absolute;
+	float:left;
+	padding-left:20px;
+}
+.mas-rule-list-query>input{
+	border:none;
+	height:30px;
+	line-height:30px;
+	width:230px;
+	background-color:transparent;
+	position:absolute;
+	float:left;
+	border-radius:10px;
+	padding-left:20px;
+	background-image:url("/static/img/search-box.png");
+	outline:none;
+}
+
+.mas-rule-union-draw{
+	background-image: url("/static/img/drawArea.png");
+	background-repeat: repeat;
+	margin: 0px;
+	padding: 0px;
+	margin:0px;
+	padding:0px;
+	border: #ffff00 solid 2px;
+	position: relative;
+	float: left
+}
+
+.mas-map-val-config{
+	margin: 0px;
+	padding: 0px;
+	margin:0px;
+	padding:0px;
+	position: relative;
+	float: left
+}
+
+.masFloatUnit{
+	z-index:2;
+	height:30px;
+	line-height: 30px;
+	padding: 0px;
+	margin: 0px;
+	min-width: 120px;
+	font-weight: bold;
+	position: absolute;
+	text-align: center;
+	text-overflow: ellipsis;
+	background-color: #eb9316;
+	-moz-user-select:none;
+	-webkit-user-select:none;
+	user-select:none;
+}
+
+.masFloatUnitActive {
+	border:#F00 solid 2px;	
+}
+
+.mas-td-edit{
+	width:360px;
+	padding:0px;
+	margin:0px;
+	background-color:#FC9;
+}
+.mas-td-edit>input{
+	width:348px;
+	padding:0px;
+	margin:0px;
+	outline:none;
+	border:none;
+	background-color:transparent;
+}
+
+/*
+::-webkit-scrollbar{width:6px;}
+::-webkit-scrollbar-thumb{background-color:#00aff0;}
+::-webkit-scrollbar-thumb:hover {background-color:#9c3}
+::-webkit-scrollbar-thumb:active {background-color:#9c3}
+*/

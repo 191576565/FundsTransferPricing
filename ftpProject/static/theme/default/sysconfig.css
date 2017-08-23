@@ -1,0 +1,381 @@
+/*开始左侧菜单栏样式*/
+/*
+* 左侧菜单栏样式
+*/
+.navbar-static-side {
+    float: left;
+    display: block;
+    moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    margin-left: -15px;
+    user-select:none;
+    position: fixed;
+    transition:width 0.4s;
+    -webkit-transition:width 0.4s;
+    z-index: 1024;
+}
+/*
+ *  left side bar attr
+ */
+.nav-root-level{
+    height: 46px;
+    line-height: 46px;
+    width: 220px;
+    color: #a7b1c2;
+    padding-left: 15px;
+    font-size: 13px;
+    font-weight: 600;
+    transition:width 0.4s;
+    -webkit-transition:width 0.4s;
+    overflow: hidden;
+}
+
+.nav-root-level:hover{
+    color: #FFFFFF;
+    background-color: #086d87;
+    cursor: pointer;
+}
+.nav-root-level i{
+    float: right;
+    height: 46px;
+    line-height: 46px;
+    margin-right: 23px;
+}
+.nav-leaf-level{
+    height: 40px;
+    line-height: 40px;
+    width: 220px;
+    color: #a7b1c2;
+    font-size: 13px;
+    font-weight: 600;
+    border-left: #1d9d74 solid 4px;
+    background-color: #086d87;
+}
+.nav-leaf-level i{
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 23px;
+}
+.nav-leaf-level:hover{
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.H-logo-area{
+    text-align:center;
+    width: 220px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+/*结束左侧菜单栏目样式*/
+
+
+/*
+* 右侧主题背景样式
+*/
+.gray-bg{
+    display: block;
+    background-color: #f3f3f4;
+    overflow: hidden;
+    position: fixed;
+    margin-left: 50px;
+    transition: transform 2s;
+}
+
+
+/*
+* 右侧第一行样式
+*/
+.H-content-bar{
+    height: 60px;
+    line-height: 58px;
+    background-color: #f3f3f4;
+    position: relative;
+}
+/*
+* bar 属性
+*/
+.H-menu-bar{
+    height: 60px;
+    line-height: 60px;
+    margin-left: -15px;
+    float: left;
+    width: 60px;
+    padding: 15px 15px;
+
+}
+.H-menu-btn{
+    background-color: #1ab394;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    border-radius: 3px;
+    height: 30px;
+    display: block;
+    line-height: 30px;
+    width: 30px;
+}
+.H-search-bar{
+    height: 60px;
+    line-height: 60px;
+    padding: 0 23px;
+    width: 120px;
+    float: left;
+    outline: none;
+}
+.H-search-input{
+    border: none;
+    outline: none;
+    height: 58px;
+    line-height: 58px;
+    background-color: #f3f3f4;
+}
+.H-main-right{
+    height: 58px;
+    line-height: 58px;
+    float: left;
+    padding: 0 18px;
+    font-weight: bold;
+}
+.H-main-right:hover{
+    background-color: #f3f6fb;
+    cursor: pointer;
+}
+/*结束bar样式*/
+
+
+/*开始tab样式编辑*/
+/*
+* 右侧标签页样式
+*/
+.H-content-tab{
+    height: 42px;
+    line-height: 40px;
+    border-top: solid #1b6d85 2px;
+    background-color: #fafafa;
+    position: relative;
+}
+/*
+* tab上图标
+*/
+.H-tab-bar{
+    height: 40px;
+    line-height: 40px;
+    padding: 0px;
+    margin: 0px;
+}
+/*
+* 新增的tab页面
+*/
+.H-tabs-index{
+    float: left;
+    margin: 0px;
+    background-color: #FFFFFF;
+    padding: 0px;
+    border: none;
+    overflow: hidden;
+}
+/*
+* 靠左现实的tab页面
+*/
+.H-left-tab{
+    float: left;
+    padding: 0px 15px;
+    cursor: pointer;
+    border: none;
+    border-right:#1b6d85 solid 1px;
+    background-color: #FFFFFF;
+    height: 40px;
+    line-height: 40px;
+    outline: none;
+    font-size: 12px;
+    font-weight: 300;
+}
+.H-left-tab:hover{
+    background-color: #f3f3f4;
+}
+
+/*
+* 靠右显示的tab页面
+*/
+.H-right-tab{
+    float: right;
+    cursor: pointer;
+    border: none;
+    border-left:#1b6d85 solid 1px;
+    background-color: #FFFFFF;
+    height: 40px;
+    line-height: 40px;
+    outline: none;
+    font-size: 12px;
+    font-weight: 300;
+}
+.H-right-tab:hover{
+    background-color: #f3f3f4;
+}
+.H-right-tab button{
+    padding: 0px 15px;
+    cursor: pointer;
+    border: none;
+    border-right:#f3f3f4 solid 0.5px;
+    background-color: #FFFFFF;
+    height: 40px;
+    line-height: 40px;
+    outline: none;
+}
+.H-right-tab button:hover{
+    background-color: #f3f3f4;
+}
+.H-right-tab-padding{
+    padding: 0px 15px;
+}
+.H-gray-close {
+    margin-left: 8px;
+    color: rgba(0, 0, 0, 0.4);
+}
+.H-gray-close:hover{
+    color: firebrick;
+}
+
+.active-tab{
+    background-color: #086d87;
+    color: #e1e4e9;
+}
+.active-tab:hover{
+    background-color: #086d87;
+    color: #ffffff;
+}
+/*结束tab标签样式*/
+
+/*
+* 右侧内容栏目
+*/
+.H-main-content{
+    display: block;
+    position: relative;
+    overflow: auto;
+}
+
+/*
+* 右侧页脚样式
+*/
+.H-footer{
+    background: none repeat scroll 0 0 #fff;
+    border-top: 1px solid #e7eaec;
+    overflow: hidden;
+    padding: 10px 20px;
+    margin: 0 -15px;
+    height: 36px;
+}
+
+.active{
+    display: block;
+}
+.none{
+    display: none;
+}
+
+
+/*
+* 弹出框header css样式
+*/
+
+.h-modal-header{
+    padding:0px;
+    margin:0px;
+    height:30px;
+    line-height:30px;
+    background-color:#336699;
+    position: relative;
+    z-index: 999;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    user-select:none;
+}
+
+.h-modal-content{
+    border:#336699 solid 2px;
+    border-radius:5px;
+}
+.h-modal-title{
+    text-overflow:ellipsis;
+    color: #ffffff;
+    font-weight:bold;
+}
+
+
+@media only screen and (max-width: 1440px) {
+    .tile{
+        width: 130px;
+        height: 130px;
+    }
+    .tile-wide{
+        width:270px;
+        height: 130px;
+    }
+    .tile-large{
+        width:270px;
+        height: 270px;
+    }
+}
+
+
+
+/*
+* platform页面特有css样式
+* 开始
+*/
+.h-res-info-header{
+    color: #0f0f0f;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: #e3e3e3 1px solid;
+}
+
+.h-res-details-info{
+    position: absolute;
+    right: 15px;
+    background-color: rgba(183, 223, 169, 0.23);
+}
+.h-res-details-info-header{
+    color: #0f0f0f;
+    font-size: 16px;
+    font-weight: bold;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+/*
+* platform页面特有css样式
+* 结束
+*/
+
+
+@-webkit-keyframes  shineRed {
+    from { -webkit-box-shadow: 0 0 5px #bbb; }
+    50% { -webkit-box-shadow: 0 0 10px red; }
+    to { -webkit-box-shadow: 0 0 5px #bbb; }
+}
+@-webkit-keyframes shineBlue {
+    from { -webkit-box-shadow: 0 0 9px #333; }
+    50% { -webkit-box-shadow: 0 0 18px blue; }
+    to { -webkit-box-shadow: 0 0 9px #333; }
+}
+.shine_red{
+    -webkit-animation-name: shineBlue;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
