@@ -69,8 +69,26 @@
 			}
 			
 			.modal-header .close {
-				padding-right: 8px !important;
+				padding-right: 8px !important;			
 			}
+		   .tile-group .tile-group-title {
+			    color: #ffffff;
+			    font-size: 25px;
+			    line-height: 20px;
+			    position: absolute;
+			    top: 10px;
+			    left: 0;
+				font-weight:bold;
+			}
+			.tile .tile-label {
+			    position: absolute;
+			    bottom: 0px;
+			    left: 0.625rem;
+			    z-index: 999;
+			    padding: 0.425rem 0.25rem;
+				font-size: 15px;
+				font-weight:bold;
+			}	
 		</style>
 	</head>
 
